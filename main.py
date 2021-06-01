@@ -1,12 +1,13 @@
-import dlib
-import cv2
-import glob
-import tqdm
-import pandas as pd
+# import dlib
+# import cv2
+# import glob
+# import tqdm
+# import pandas as pd
 import scipy
 import numpy as np
 import scipy.io
 import Model
+import training
 
 ###########################################################################
 #
@@ -83,3 +84,4 @@ import Model
 # cv2.destroyAllWindows()
 
 Model.My_Model()
+training
